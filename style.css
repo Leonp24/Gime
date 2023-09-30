@@ -1,0 +1,97 @@
+/* utilities */
+* {
+  font-family: outfit;
+  color: white;
+}
+.subtitle {
+  text-transform: uppercase;
+  color: grey;
+  letter-spacing: 5px;
+}
+body a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #a555ed;
+}
+/* utilities */
+
+/* navbar */
+.navbar .navbar-brand img {
+  width: 120px;
+}
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+.navbar .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  width: 130px;
+  font-weight: 600;
+}
+.navbar .btn:hover {
+  background: none;
+  border: 1px solid #a555ed;
+  color: white;
+}
+.navbar .nav-link {
+  margin-right: 30px;
+}
+.navbar .nav-link:hover {
+  color: #a555ed;
+}
+/* navbar */
+
+/* hero */
+#hero .nav .nav-link {
+  color: white;
+  margin-right: 20px;
+}
+#hero .nav .active {
+  background: none;
+  border: 1px solid #a555ed;
+}
+#hero .carousel-inner {
+  border-radius: 20px;
+}
+#hero .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+#hero #pills-discover .card {
+  background: none;
+  border: none;
+}
+#hero .card img {
+  border-radius: 20px;
+}
+
+#hero #pills-popular .reccommended .card {
+  background: none;
+  border: none;
+}
+
+#hero #pills-popular .free-games .card {
+  background: none;
+  border: none;
+}
+/* hero */
+
+/* footer */
+footer {
+  padding: 30px 30px;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  display: inline;
+  padding-right: 20px;
+}
+footer .copyright-text {
+  color: grey;
+  text-align: end;
+}
+/* footer */
