@@ -1,0 +1,34 @@
+/* confirm */
+#confirm .breadcrumb a {
+    color: #6ea8fe;;
+  }
+  #confirm a:hover {
+    text-decoration: none;
+    color: #7800e3;
+  }
+  #confirm .card {
+    border-radius: 20px;
+  }
+  #confirm .card img {
+    border-radius: 20px;
+  }
+  /* confirm */
+
+  /* footer */
+footer {
+    padding: 30px 30px;
+  }
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  footer li {
+    display: inline;
+    padding-right: 20px;
+  }
+  footer .copyright-text {
+    color: grey;
+    text-align: end;
+  }
+  /* footer */
