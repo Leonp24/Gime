@@ -77,6 +77,18 @@ a:hover {
 }
 /* hero */
 
+/* about */
+#about {
+  color: white;
+  margin-top: 30px;
+}
+#about h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+/* about */
+
 /* footer */
 footer {
   padding: 30px 30px;
