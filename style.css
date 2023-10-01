@@ -8,6 +8,11 @@
   color: grey;
   letter-spacing: 5px;
 }
+
+.copyright {
+  color: grey;
+}
+
 body a {
   text-decoration: none;
   color: white;
@@ -168,9 +173,10 @@ a:hover {
   border: none;
 }
 
-/* /news */
+/* news */
 
-/*  */
+
+/* cart */
 .navbar .divider {
   border-left: 1px solid grey;
   margin-right: 20px;
@@ -183,6 +189,26 @@ a:hover {
 #cart .card-title h6{
   padding: 0;
 }
+
+/* cart */
+
+/* account info */
+#account {
+  color: white;
+}
+#account .card {
+  padding: 30px;
+}
+#account .card label {
+  text-transform: uppercase;
+  color: grey;
+  letter-spacing: 5px;
+  padding-top: 5px;
+}
+#account .form-modal label {
+  margin-top: 5px;
+}
+/* account info */
 
 /* footer */
 footer {
@@ -201,4 +227,5 @@ footer .copyright-text {
   color: grey;
   text-align: end;
 }
+
 /* footer */
