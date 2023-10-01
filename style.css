@@ -137,6 +137,27 @@ a:hover {
 
 
 /* detail page */
+/* news page */
+#news .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+  width: 120px;
+}
+#news .btn:hover {
+  background: none;
+  border: 1px solid #a555ed;
+}
+#news .card img {
+  border-radius: 20px;
+}
+#news .card a {
+  text-decoration: none;
+}
+#news .card small {
+  color: grey;
+}
+/* news page */
 
 /* footer */
 footer {
