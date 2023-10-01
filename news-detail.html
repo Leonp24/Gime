@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gime - Game Store</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+
+  <!-- Font & Bg color -->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+
+    body {
+      background-color: #131315;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="./index.html">Home</a>
+          <a class="nav-link" href="./about-page.html">About</a>
+          <a class="nav-link active" aria-current="page" href="./news-page.html">News</a>
+          <a href="./login-page.html" class="btn">Login</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- /navbar -->
+
+  <!-- Isi Berita -->
+
+  <section id="news-detail">
+    <div class="container mt-3">
+      <div div class="row">
+        <div class="col">
+          <div class="gambar-background"
+            style="background: url(./assets/image-news.png);background-size: cover; height: 500px; border-radius: 20px;">
+          </div>
+          <h1><b>WORLDWIDE REVEAL: ANNOUNCING CALL OF DUTY: MODERN WARFARE III</b></h1>
+          <p class="card-text">Friday, 1 September 2023</p>
+        </div>
+
+      </div>
+      <!-- Ini Bagian Paragrafnya -->
+      <div class="col mt-5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore quia minus eaque ex? Fugiat nostrum
+          sit incidunt saepe neque corporis vitae unde voluptatum! Distinctio, vel dolores. Sed, blanditiis temporibus
+          tenetur accusantium iure et ipsam dolores perspiciatis vero excepturi id maxime illo numquam ipsum expedita,
+          quidem rem. Nobis rem quidem, molestias quis fugit suscipit quod perspiciatis nostrum voluptatem reiciendis
+          natus.</p>
+      </div>
+
+      <div class="col mt-5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore quia minus eaque ex? Fugiat nostrum
+          sit incidunt saepe neque corporis vitae unde voluptatum! Distinctio, vel dolores. Sed, blanditiis temporibus
+          tenetur accusantium iure et ipsam dolores perspiciatis vero excepturi id maxime illo numquam ipsum expedita,
+          quidem rem. Nobis rem quidem, molestias quis fugit suscipit quod perspiciatis nostrum voluptatem reiciendis
+          natus.</p>
+      </div>
+
+      <div class="col mt-5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore quia minus eaque ex? Fugiat nostrum
+          sit incidunt saepe neque corporis vitae unde voluptatum! Distinctio, vel dolores. Sed, blanditiis temporibus
+          tenetur accusantium iure et ipsam dolores perspiciatis vero excepturi id maxime illo numquam ipsum expedita,
+          quidem rem. Nobis rem quidem, molestias quis fugit suscipit quod perspiciatis nostrum voluptatem reiciendis
+          natus.</p>
+      </div>
+      <hr>
+      <!-- /Ini bagian berita -->
+
+      <!-- Ini bagian rekomendasi berita -->
+
+      <div class="row mt-3">
+        <h3>More News</h3>
+        <!-- Berita 1 -->
+        <div class="col-lg-6 mt-3">
+          <div class="card" style="width: 100%" data-bs-theme="dark">
+            <img src="./assets/image-news3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">30 September 2023</h6>
+              <a href="#" class="game-title">
+                <h5>Resident Evil 4 Playtrough</h5>
+              </a>
+              <h4 class="cost">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, atque.</h4>
+            </div>
+          </div>
+        </div>
+        <!-- Berita 2 -->
+        <div class="col-lg-6 mt-3">
+          <div class="card" style="width: 100%" data-bs-theme="dark">
+            <img src="./assets/image-news4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">30 September 2023</h6>
+              <a href="#" class="game-title">
+                <h5>Konami Apologizes for eFootball’s Disastrous Launch</h5>
+              </a>
+              <h4 class="cost">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, atque.</h4>
+            </div>
+          </div>
+
+          <!-- /Ini bagian rekomendasi berita -->
+        </div>
+      </div>
+  </section>
+  <!-- /Isi Berita -->
+
+  <!-- Footer -->
+
+  <footer class="bg-dark mt-5" data-bs-theme="dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="link">
+            <h6 class="subtitle">quick link</h6>
+            <ul>
+              <li><a href="./about-page.html">About</a></li>
+              <li><a href="./news-page.html">News</a></li>
+              <li><a href="#hero">Discover</a></li>
+              <li><a href="#hero">Popular</a></li>
+              <li><a href="./sales-page.html">Sales & Special</a></li>
+              <li><a href="./freegame-page.html">Free Games</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h6 class="copyright-text">
+            &copy; Copyright Gime, 2023 All Rights Reserved
+          </h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- /Footer -->
+
+
+</body>
