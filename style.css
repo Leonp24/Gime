@@ -161,6 +161,15 @@ a:hover {
 }
 /* news page */
 
+/* news */
+
+#news-detail .card {
+  background: none;
+  border: none;
+}
+
+/* /news */
+
 /*  */
 .navbar .divider {
   border-left: 1px solid grey;
