@@ -77,6 +77,69 @@ a:hover {
 }
 /* hero */
 
+
+
+/* detail page */
+
+#detail {
+  color: white;
+}
+#detail .breadcrumb a {
+  text-decoration: none;
+  color: #a555ed;
+}
+#detail img {
+  border-radius: 20px;
+  width: 100%;
+}
+#detail h6 {
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+#detail h1 {
+  font-weight: 600;
+}
+#detail table {
+  width: 100%;
+}
+#detail table th {
+  color: grey;
+}
+#detail .trigger .btn {
+  width: 100%;
+}
+
+#detail .buy {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+}
+#detail .modal .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+  width: 50%;
+}
+#detail .modal-body {
+  padding: 30px;
+}
+#detail .modal .btn {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#detail .modal .btn-close {
+  margin-left: auto;
+  display: flex;
+}
+#detail .cost {
+  color: #a555ed;
+}
+
+
+/* detail page */
+
 /* footer */
 footer {
   padding: 30px 30px;
