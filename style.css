@@ -90,6 +90,7 @@ a:hover {
 }
 #detail img {
   border-radius: 20px;
+  width: 100%;
 }
 #detail h6 {
   color: grey;
