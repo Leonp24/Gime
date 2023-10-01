@@ -159,6 +159,15 @@ a:hover {
 }
 /* news page */
 
+/* news */
+
+#news-detail .card {
+  background: none;
+  border: none;
+}
+
+/* /news */
+
 /* footer */
 footer {
   padding: 30px 30px;
