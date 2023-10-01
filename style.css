@@ -79,22 +79,6 @@ a:hover {
 }
 /* hero */
 
-<<<<<<< HEAD
-/*  */
-.navbar .divider {
-  border-left: 1px solid grey;
-  margin-right: 20px;
-}
-
-#cart .card a {
-  text-decoration: none;
-  text-align: center;
-}
-#cart .card-title h6{
-  padding: 0;
-}
-
-=======
 /* detail page */
 
 #detail {
@@ -177,7 +161,20 @@ a:hover {
 }
 /* news page */
 
->>>>>>> c647bccdbe1affd54ae0f3b4fe7a9e6f0cdf47b0
+/*  */
+.navbar .divider {
+  border-left: 1px solid grey;
+  margin-right: 20px;
+}
+
+#cart .card a {
+  text-decoration: none;
+  text-align: center;
+}
+#cart .card-title h6{
+  padding: 0;
+}
+
 /* footer */
 footer {
   padding: 30px 30px;
