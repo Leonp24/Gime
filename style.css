@@ -3,32 +3,39 @@
   font-family: outfit;
   color: white;
 }
+
 .subtitle {
   text-transform: uppercase;
   color: grey;
   letter-spacing: 5px;
 }
+
 body a {
   text-decoration: none;
   color: white;
 }
+
 a:hover {
   color: #a555ed;
 }
+
 /* utilities */
 
 /* navbar */
 .navbar .navbar-brand img {
   width: 120px;
 }
+
 .navbar .navbar-nav {
   margin-left: auto;
 }
+
 .navbar .btn {
   background: linear-gradient(to right, #a555ed, #7800e3);
   width: 130px;
   font-weight: 600;
 }
+
 .navbar .btn:hover {
   background: none;
   border: 1px solid #a555ed;
@@ -39,9 +46,11 @@ a:hover {
 .navbar .nav-link {
   margin-right: 30px;
 }
+
 .navbar .nav-link:hover {
   color: #a555ed;
 }
+
 /* navbar */
 
 /* hero */
@@ -49,21 +58,26 @@ a:hover {
   color: white;
   margin-right: 20px;
 }
+
 #hero .nav .active {
   background: none;
   border: 1px solid #a555ed;
 }
+
 #hero .carousel-inner {
   border-radius: 20px;
 }
+
 #hero .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
+
 #hero #pills-discover .card {
   background: none;
   border: none;
 }
+
 #hero .card img {
   border-radius: 20px;
 }
@@ -77,6 +91,7 @@ a:hover {
   background: none;
   border: none;
 }
+
 /* hero */
 
 /* detail page */
@@ -84,28 +99,35 @@ a:hover {
 #detail {
   color: white;
 }
+
 #detail .breadcrumb a {
   text-decoration: none;
   color: #a555ed;
 }
+
 #detail img {
   border-radius: 20px;
   width: 100%;
 }
+
 #detail h6 {
   color: grey;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
+
 #detail h1 {
   font-weight: 600;
 }
+
 #detail table {
   width: 100%;
 }
+
 #detail table th {
   color: grey;
 }
+
 #detail .trigger .btn {
   width: 100%;
 }
@@ -115,28 +137,32 @@ a:hover {
   border: none;
   color: white;
 }
+
 #detail .modal .btn {
   background: linear-gradient(to right, #a555ed, #7800e3);
   border: none;
   color: white;
   width: 50%;
 }
+
 #detail .modal-body {
   padding: 30px;
 }
+
 #detail .modal .btn {
   margin: auto;
   display: flex;
   justify-content: center;
 }
+
 #detail .modal .btn-close {
   margin-left: auto;
   display: flex;
 }
+
 #detail .cost {
   color: #a555ed;
 }
-
 
 /* detail page */
 /* news page */
@@ -146,19 +172,24 @@ a:hover {
   color: white;
   width: 120px;
 }
+
 #news .btn:hover {
   background: none;
   border: 1px solid #a555ed;
 }
+
 #news .card img {
   border-radius: 20px;
 }
+
 #news .card a {
   text-decoration: none;
 }
+
 #news .card small {
   color: grey;
 }
+
 /* news page */
 
 /* news */
@@ -168,9 +199,10 @@ a:hover {
   border: none;
 }
 
-/* /news */
+/* news */
 
-/* cart page - iqbal */
+
+/*  */
 .navbar .divider {
   border-left: 1px solid grey;
   margin-right: 20px;
@@ -180,37 +212,46 @@ a:hover {
   text-decoration: none;
   text-align: center;
 }
-#cart .card-title h6{
+
+#cart .card-title h6 {
   padding: 0;
 }
 
-* about */
-#about {
-  color: white;
-  margin-top: 30px;
+/* confirm */
+#confirm .breadcrumb a {
+  color: #6ea8fe;;
 }
-#about h1 {
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-weight: 500;
+#confirm a:hover {
+  text-decoration: none;
+  color: #7800e3;
 }
-/* about */
+#confirm .card {
+  border-radius: 20px;
+}
+#confirm .card img {
+  border-radius: 20px;
+}
+/* confirm */
 
 /* footer */
 footer {
   padding: 30px 30px;
 }
+
 footer ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 footer li {
   display: inline;
   padding-right: 20px;
 }
+
 footer .copyright-text {
   color: grey;
   text-align: end;
 }
+
 /* footer */
