@@ -199,9 +199,10 @@ a:hover {
   border: none;
 }
 
-/* /news */
+/* news */
 
-/* cart page - iqbal */
+
+/*  */
 .navbar .divider {
   border-left: 1px solid grey;
   margin-right: 20px;
@@ -216,54 +217,6 @@ a:hover {
   padding: 0;
 }
 
-/* about */
-#about {
-  color: white;
-  margin-top: 30px;
-}
-
-#about h1 {
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-weight: 500;
-}
-
-/* about */
-
-/* order */
-#order .breadcrumb a {
-  text-decoration: none;
-}
-
-#order a:hover {
-  color: #a555ed;
-}
-
-#order .nav-pills .active {
-  border: none;
-  color: white;
-}
-
-#order .nav-pills button {
-  margin-right: 20px;
-  color: white;
-}
-
-#order a {
-  text-decoration: none;
-
-}
-
-#order .card {
-  border-radius: 20px;
-}
-
-#order .card img {
-  border-radius: 20px;
-  width: 100%;
-}
-
-/* order */
 
 /* Scan */
 #scan a {
@@ -281,38 +234,21 @@ a:hover {
 /* /scan */
 
 
-
-/* success page */
-#success .status {
-  display: inline;
-  background-color: green;
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
+/* confirm */
+#confirm .breadcrumb a {
+  color: #6ea8fe;;
 }
-#success .card-text {
-  display: flex;
-  justify-content: center;
-}
-#success table {
-  width: 50%;
-}
-#success .download {
-  background: linear-gradient(to right, #a555ed, #7800e3);
-  border: none;
-  color: white;
-}
-#success .btn {
-  margin-right: 20px;
-}
-#success .free-games .card {
-  background: none;
-  color: white;
-}
-#success .free-games a {
+#confirm a:hover {
   text-decoration: none;
+  color: #7800e3;
 }
-/* success page*/
+#confirm .card {
+  border-radius: 20px;
+}
+#confirm .card img {
+  border-radius: 20px;
+}
+/* confirm */
 
 /* footer */
 footer {
