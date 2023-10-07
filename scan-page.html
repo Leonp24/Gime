@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gime - Game Store</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <!-- Font & Bg color -->
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+
+        body {
+            background-color: #131315;
+        }
+    </style>
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link" href="./about-page.html">About</a>
+                    <a class="nav-link" href="./news-page.html">News</a>
+                    <div class="divider"></div>
+                    <a class="nav-link" href="./cart-page.html"><span class="iconify"
+                            data-icon="solar:cart-check-linear"></span> Cart</a>
+                    <a class="nav-link" href="./library-page.html">Library</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+
+    <!-- scan beli game -->
+    <section id="scan">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col">
+                    <!-- breadcrumb -->
+                    <nav aria-label="breadcrumb" data-bs-theme="dark">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="./index.html">Resident Evil Village</a></li>
+                            <li class="breadcrumb-item">Billing Information</li>
+                            <li class="breadcrumb-item">Confirm payment</li>
+                            <li class="breadcrumb-item">Scan to pay</li>
+                            <!-- /berdcrumb -->
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card mb-4" style="width: 100%;" data-bs-theme="dark">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="./assets/image8.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h4><b>Resident Evil Village</b></h4>
+                                        <p class="card-text"><small class="text-secondary">Cost :</small>
+                                        <br>
+                                        <h5><b>IDR 200.000</b></h5>
+                                        <hr>
+                                        <div class="row mt-4 mb-4">
+                                            <h5 class="text-secondary">Buyer Information</h5>
+                                            <div class="col">
+                                                <label for="Full Name">Full Name</label>
+                                                <div class="buyer name mt-2">
+                                                    <h5>Jhon Doe</h5>
+                                                </div>
+                                            </h2>
+                                            </div>
+                                            <div class="col">
+                                                <label for="Full Name">Phone Number</label>
+                                                <div class="buyer name mt-2">
+                                                    <h5>1234567890</h5>
+                                                </div>
+                                            </h2>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                            <div class="col-lg-6">
+                                                <div class="text-secondary"><h5>Payment Method</h5></div>
+                                                <h5 class="payment-method mt-3">GoPay</h5>
+                                                <div class="col-lg-6 mt-2"></div>
+                                                <h5 class="text-secondary mt-3">How to Pay</h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 mt-2">
+                                                    <ul>
+                                                        <li>Open Gopay/OVO App</li>
+                                                        <li>Click on <b>Pay</b> and scan qr code</li>
+                                                        <li>If you choose payment via indomaret, you just need to take screenshot of
+                                                            this qr code then show it to cashier</li>
+                                                        <li>You can click the Done button if you already paid</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                                <div class="col-lg-3">
+                                                    <img class="qr-code mt-2" src="./assets/qr-code.png" alt="">
+                                                </div>
+                                                <div class="col-lg-3 my-auto">
+                                                  <a href="./success-page.html" class="btn btn-outline-light w-100"><span class="iconify" data-icon="ph:check-bold"></span> Done</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
