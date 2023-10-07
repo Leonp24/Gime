@@ -265,6 +265,23 @@ a:hover {
 
 /* order */
 
+/* Scan */
+#scan a {
+  text-decoration: none;
+}
+#scan .qr-code {
+  width: 100%;
+}
+#scan .card {
+  border-radius: 20px;
+}
+#scan .card img {
+  border-radius: 20px;
+}
+/* /scan */
+
+
+
 /* success page */
 #success .status {
   display: inline;
