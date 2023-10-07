@@ -217,6 +217,23 @@ a:hover {
   padding: 0;
 }
 
+
+/* Scan */
+#scan a {
+  text-decoration: none;
+}
+#scan .qr-code {
+  width: 100%;
+}
+#scan .card {
+  border-radius: 20px;
+}
+#scan .card img {
+  border-radius: 20px;
+}
+/* /scan */
+
+
 /* confirm */
 #confirm .breadcrumb a {
   color: #6ea8fe;;
