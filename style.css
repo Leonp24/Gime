@@ -217,7 +217,57 @@ a:hover {
   padding: 0;
 }
 
- 
+
+/* Scan */
+#scan a {
+  text-decoration: none;
+}
+#scan .qr-code {
+  width: 100%;
+}
+#scan .card {
+  border-radius: 20px;
+}
+#scan .card img {
+  border-radius: 20px;
+}
+/* /scan */
+
+
+/* confirm */
+#confirm .breadcrumb a {
+  color: #6ea8fe;;
+}
+#confirm a:hover {
+  text-decoration: none;
+  color: #7800e3;
+}
+#confirm .card {
+  border-radius: 20px;
+}
+#confirm .card img {
+  border-radius: 20px;
+}
+/* confirm */
+
+/* account info */
+#account {
+  color: white;
+}
+#account .card {
+  padding: 30px;
+}
+#account .card label {
+  text-transform: uppercase;
+  color: grey;
+  letter-spacing: 5px;
+  padding-top: 5px;
+}
+#account .form-modal label {
+  margin-top: 5px;
+}
+/* account info */
+
 
 
 /* footer */
