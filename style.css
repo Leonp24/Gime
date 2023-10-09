@@ -54,9 +54,6 @@ a:hover {
 /* navbar */
 
 /* hero */
-#hero .nav {
-  margin-top: 10px;
-}
 #hero .nav .nav-link {
   color: white;
   margin-right: 20px;
