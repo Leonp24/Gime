@@ -54,6 +54,9 @@ a:hover {
 /* navbar */
 
 /* hero */
+#hero .nav {
+  margin-top: 10px;
+}
 #hero .nav .nav-link {
   color: white;
   margin-right: 20px;
@@ -93,6 +96,13 @@ a:hover {
 }
 
 /* hero */
+
+/* about */
+#about h1 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+/* about */
 
 /* detail page */
 
@@ -198,6 +208,9 @@ a:hover {
   background: none;
   border: none;
 }
+#news-detail .card small {
+  color: grey;
+}
 
 /* news */
 
@@ -250,9 +263,150 @@ a:hover {
 }
 /* confirm */
 
+/* libary page */
+#account .card {
+  padding: 30px;
+}
+/* libary page */
+
+/* sales & special */
+#sales .onsale .card {
+  background: none;
+  border: none;
+}
+#sales .onsale .card img {
+  border-radius: 20px;
+}
+#sales .special .card {
+  border: none;
+  background: none;
+}
+#sales .special .card img {
+  border-radius: 20px;
+}
+#sales .special .card-img-overlay {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.584), rgba(0, 0, 0, 0));
+}
+#sales .special .deskripsi {
+  position: absolute;
+  bottom: 20px;
+}
+/* sales & special */
+
+/* success */
+#success {
+  color: white;
+}
+#success h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+#success .card {
+  border-radius: 20px;
+}
+#success .card img {
+  border-radius: 20px;
+}
+#success .status {
+  display: inline;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+#success .card-text {
+  display: flex;
+  justify-content: center;
+}
+#success table {
+  width: 50%;
+}
+#success .download {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+}
+#success .btn {
+  margin-right: 20px;
+}
+#success .free-games .card {
+  background: none;
+  color: white;
+}
+#success .free-games a {
+  text-decoration: none;
+}
+/* success */
+
+/* free game */
+#freegame .card {
+  background: none;
+  border: none;
+}
+#freegame .card img {
+  border-radius: 20px;
+}
+/* free game */
+
+/* login */
+#login {
+  margin-top: 50px;
+  color: white;
+}
+#login a {
+  text-decoration: none;
+}
+#login h5 {
+  text-align: center;
+}
+#login p {
+  text-align: center;
+}
+.bg-login {
+  padding: 30px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 0px 15px 10px #a555ed;
+}
+.bg-login .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+}
+/* login */
+
+/* signup */
+#signup {
+  margin-top: 50px;
+  color: white;
+}
+#signup a {
+  text-decoration: none;
+}
+#signup h5 {
+  text-align: center;
+}
+#signup p {
+  text-align: center;
+}
+.bg-signup {
+  padding: 30px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 0px 15px 10px #a555ed;
+}
+.bg-signup .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+}
+/* signup */
+
 /* footer */
 footer {
   padding: 30px 30px;
+  margin-top: 30px;
 }
 
 footer ul {

@@ -14,6 +14,10 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="./mobile.css">
+
+  <!-- Bootstrap JS -->
+  <script src="./js/bootstrap.bundle.js"></script>
 
   <!-- Font & Bg color -->
   <style>
@@ -23,13 +27,13 @@
       background-color: #131315;
     }
   </style>
+
+  <!-- iconify -->
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </head>
 
 <body>
-
-
   <!-- navbar -->
-
   <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="" /></a>
@@ -56,7 +60,7 @@
     <div class="container mt-3">
       <div div class="row">
         <div class="col">
-          <div class="gambar-background"
+          <div class="gambar-background mb-5"
             style="background: url(./assets/image-news.png);background-size: cover; height: 500px; border-radius: 20px;">
           </div>
           <h1><b>WORLDWIDE REVEAL: ANNOUNCING CALL OF DUTY: MODERN WARFARE III</b></h1>
@@ -93,35 +97,35 @@
 
       <!-- Ini bagian rekomendasi berita -->
 
-      <div class="row mt-3">
-        <h3>More News</h3>
-        <!-- Berita 1 -->
-        <div class="col-lg-6 mt-3">
-          <div class="card" style="width: 100%" data-bs-theme="dark">
-            <img src="./assets/image-news3.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h6 class="card-title">30 September 2023</h6>
-              <a href="#" class="game-title">
-                <h5>Resident Evil 4 Playtrough</h5>
-              </a>
-              <h4 class="cost">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, atque.</h4>
+      <div class="more-news mt-3">
+        <div class="row">
+          <h5><b>More News</b></h5>
+          <div class="col-lg-6">
+            <div class="card mt-3" style="width: 100%; background: none; color: white;">
+              <img src="./assets/image-news3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6><small>Friday, 1 September 2023</small></h6>
+                <a href="./news-detail.html" class="card-title">
+                  <h5>Resident Evil 4 PS5 Playthrough</h5>
+                </a>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore recusandae optio ipsam, fugiat
+                  eius nam nemo hic impedit ea commodi.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- Berita 2 -->
-        <div class="col-lg-6 mt-3">
-          <div class="card" style="width: 100%" data-bs-theme="dark">
-            <img src="./assets/image-news4.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h6 class="card-title">30 September 2023</h6>
-              <a href="#" class="game-title">
-                <h5>Konami Apologizes for eFootball’s Disastrous Launch</h5>
-              </a>
-              <h4 class="cost">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, atque.</h4>
+          <div class="col-lg-6">
+            <div class="card mt-3" style="width: 100%; background: none; color: white;">
+              <img src="./assets/image-news4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6><small>Friday, 1 September 2023</small></h6>
+                <a href="./news-detail.html" class="card-title">
+                  <h5>Konami Apologizes for eFootball’s Disastrous Launch</h5>
+                </a>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt libero iure reiciendis earum
+                  laudantium a dolore culpa quia vitae possimus.</p>
+              </div>
             </div>
           </div>
-
-          <!-- /Ini bagian rekomendasi berita -->
         </div>
       </div>
   </section>
@@ -138,8 +142,8 @@
             <ul>
               <li><a href="./about-page.html">About</a></li>
               <li><a href="./news-page.html">News</a></li>
-              <li><a href="#hero">Discover</a></li>
-              <li><a href="#hero">Popular</a></li>
+              <li><a href="./index.html">Discover</a></li>
+              <li><a href="./index.html">Popular</a></li>
               <li><a href="./sales-page.html">Sales & Special</a></li>
               <li><a href="./freegame-page.html">Free Games</a></li>
             </ul>
